@@ -1,4 +1,5 @@
 # Via https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_dispatch
+name: ad-hoc invocation with user input
 on:
   workflow_dispatch:
     inputs:
